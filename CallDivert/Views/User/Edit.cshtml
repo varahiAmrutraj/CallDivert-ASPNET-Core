@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Edit";
+}
+<div class="content-wrapper" style="min-height: 946.281px;">
+    <section class="content-header">
+        <h1>
+            Edit User
+        </h1>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <!-- form start -->
+                    <form role="form" action="/User/Update" method="post">
+                        <input type="hidden" name="Id" value="@Model.Id">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="exampleInputName">Name</label>
+                                <input type="text" class="form-control" id="exampleInputName" name="Name" placeholder="Enter name" value="@Model.Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputWhatsappNumber">Whatsapp Number</label>
+                                <input type="text" class="form-control" id="exampleInputWhatsappNumber" name="WhatsappNumber" placeholder="Enter whatsapp number" value="@Model.WhatsappNumber">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPhone">Phone</label>
+                                <input type="text" class="form-control" id="exampleInputPhone" name="Phone" placeholder="Enter phone number" value="@Model.Phone">
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Update</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.box -->
+            </div>
+            <!--/.col (left) -->
+        </div>
+        <!-- /.row -->
+    </section>
+</div>

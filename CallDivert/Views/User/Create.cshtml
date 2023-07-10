@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+<div class="content-wrapper" style="min-height: 946.281px;">
+    <section class="content-header">
+        <h1>
+            Create User
+        </h1>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                    <form role="form" method="post" action="@Url.Action("Create", "User")">
+
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="exampleInputName">Name</label>
+                                <input type="text" class="form-control" id="exampleInputName" name="Name" placeholder="Enter name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputWhatsappNumber">Whatsapp Number</label>
+                                <input type="text" class="form-control" id="exampleInputWhatsappNumber" name="WhatsappNumber" placeholder="Enter WhatsApp number">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPhone">Phone</label>
+                                <input type="text" class="form-control" id="exampleInputPhone" name="Phone" placeholder="Enter phone number">
+                            </div>
+
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Create</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.box -->
+            </div>
+                <!--/.col (left) -->
+        </div>
+        <!-- /.row -->
+</section>
+</div>
+

@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\admin\Desktop\Projects\Amrut Office\Call SMS divert\Dot net core mvc\CallDivert\CallDivert
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Dashboard/Dashboardv1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZHYxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Dashboard/Dashboardv2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZHYyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +32,64 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Layout/Fixed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XEZpeGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Message/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Schedule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Schedule/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_Aside.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Bc2lkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_LayoutFixed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGaXhlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/User/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/_ViewImports.cshtml]
@@ -39,7 +99,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/admin/Desktop/Projects/Amrut Office/Call SMS divert/Dot net core mvc/CallDivert/CallDivert/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-43xpq478y5

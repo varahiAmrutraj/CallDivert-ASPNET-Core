@@ -25,7 +25,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Dashboard}/{action=Dashboardv1}/{id?}");
 
 // Perform database operations
 using (var scope = app.Services.CreateScope())
