@@ -16,9 +16,8 @@
         </ol>
 
         <!--Modals-->
-
         @section Styles
-        {
+            {
             <style>
                 .example-modal .modal {
                     position: relative;
@@ -35,7 +34,6 @@
                 }
             </style>
         }
-
         <!--Modals-->
     </section>
     <!-- Main content -->
@@ -60,23 +58,23 @@
                                     <th>Day</th>
                                     <th>From Time</th>
                                     <th>To Time</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach (var schedule in Model)
                                 {
                                     <tr>
-                                        
                                         <td>@schedule.User.Name</td>
                                         <td>@schedule.Day</td>
                                         <td>@schedule.FromTime</td>
                                         <td>@schedule.ToTime</td>
                                         <td>
                                             <a href="~/schedule/Edit/@schedule.Id" class="btn btn-primary">
-                                                <i class="fa fa-edit"></i>Edit
+                                                <i class="fa fa-edit"></i> Edit
                                             </a>
-                                            <a class="btn btn-danger btn-delete" data-toggle="modal" data-target="#modal-danger" data-id="@schedule.Id" data-name="">
-                                                <i class="fa fa-remove"></i>Delete
+                                            <a class="btn btn-danger btn-delete" data-toggle="modal" data-target="#modal-danger" data-id="@schedule.Id" data-name="@schedule.User.Name">
+                                                <i class="fa fa-remove"></i> Delete
                                             </a>
                                         </td>
                                     </tr>
@@ -95,7 +93,7 @@
                                         <h4 class="modal-title">Are you sure?</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Are you sure you want to delete the schedule <strong id="user-name"></strong>?</p>
+                                        <p>Are you sure you want to delete the schedule for <strong id="user-name"></strong>?</p>
                                         <p>This action cannot be undone.</p>
                                     </div>
                                     <div class="modal-footer">
@@ -123,22 +121,22 @@
 
 @section Scripts
 {
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#example1').DataTable();
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#example1').DataTable();
 
-            $('.btn-delete').click(function () {
-                var userId = $(this).data('id');
-                var userName = $(this).data('name');
-                $('.btn-confirm-delete').data('id', userId);  // Set the user id in the confirm delete button's data attribute
-                $('#user-name').text(userName); // Set the user's name in the modal
-            });
+        $('.btn-delete').click(function () {
+            var userId = $(this).data('id');
+            var userName = $(this).data('name');
+            $('.btn-confirm-delete').data('id', userId);  // Set the user id in the confirm delete button's data attribute
+            $('#user-name').text(userName); // Set the user's name in the modal
+        });
 
             $('.btn-confirm-delete').click(function () {
                 var userId = $(this).data('id');
-                var url = '/User/Delete/' + userId;
+                var url = '/Schedule/Delete/' + userId;
                 window.location.href = url;
             });
-        });
-    </script>
+    });
+</script>
 }

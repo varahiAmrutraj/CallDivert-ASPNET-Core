@@ -128,6 +128,7 @@
             $('.btn-delete').click(function () {
                 var userId = $(this).data('id');
                 var userName = $(this).data('name');
+
                 $('.btn-confirm-delete').data('id', userId);  // Set the user id in the confirm delete button's data attribute
                 $('#user-name').text(userName); // Set the user's name in the modal
             });

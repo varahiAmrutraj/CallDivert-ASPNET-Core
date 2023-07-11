@@ -24,7 +24,6 @@ namespace CallDivert.Models
         [Required]
         public TimeSpan ToTime { get; set; }
 
-        // Navigation property to establish the relationship with the User entity
-        public User User { get; set; }
+        public User? User { get; set; }
     }
 }

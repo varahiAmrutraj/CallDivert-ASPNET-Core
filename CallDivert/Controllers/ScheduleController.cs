@@ -1,6 +1,7 @@
 ﻿using CallDivert.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 
@@ -58,7 +59,8 @@ namespace CallDivert.Controllers
         public IActionResult Edit(int id)
         {
             Schedule schedule = _dbContext.Schedules.SingleOrDefault(s => s.Id == id);
-
+            var userList = _dbContext.Users.ToList(); 
+            ViewBag.UserList = new SelectList(userList, "Id", "Name");
             if (schedule == null)
             {
                 // If the schedule is not found, return a suitable response (e.g., error view or redirect)
@@ -93,7 +95,7 @@ namespace CallDivert.Controllers
 
         public IActionResult List()
         {
-            var list = _dbContext.Schedules.ToList();
+            var list = _dbContext.Schedules.Include(s => s.User).ToList();
             return View(list);
         }
 
@@ -111,7 +113,7 @@ namespace CallDivert.Controllers
             _dbContext.SaveChanges();
 
             // Redirect to the list view after successful deletion
-            return RedirectToAction("List");
+            return RedirectToAction("List","Schedule");
         }
 
     }
